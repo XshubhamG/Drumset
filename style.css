@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    color: greenyellow;
+    text-shadow: 0 0 2px black;
+}
+
+.keys {
+    background-image: url(/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.key {
+    padding: 1em 2em;
+    border: 4px solid grey;
+    box-shadow:  0 0 2px white;
+    background-color: rgba(0, 0, 0, .4);
+    transition: all 0.2s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: greenyellow;
+    box-shadow: 0 0 10px greenyellow;
+
+}
+
+kbd {
+    color: white;
+    display: block;
+    font-size: 30px;
+}
